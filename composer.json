@@ -2,7 +2,7 @@
     "name": "qafoogalaxy/BootstrapJS",
     "type": "ansible-role",
     "require": {
-        "qafoogalaxy/installer": "1.0",
-        "qafoogalaxy/Git": "1.0"
+        "qafoogalaxy/installer": "dev-master",
+        "qafoogalaxy/Git": "dev-master"
     }
 }
