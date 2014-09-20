@@ -1,0 +1,5 @@
+---
+user: "{{ ansible_env.USER }}"
+homedir: "{{ ansible_env.HOME }}"
+flavor: "browser-requirejs-vanilla"
+destination: "{{ homedir }}/BootstrapJS/{{ flavor }}"

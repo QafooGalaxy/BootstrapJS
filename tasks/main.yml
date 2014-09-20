@@ -1,0 +1,5 @@
+---
+- name: "Checkout BootstrapJS repository of flavor {{ flavor }}"
+  git: repo="https://github.com/BootstrapJS/{{ flavor }}.git" dest="{{ destination }}" accept_hostkey="yes" update="yes"
+  sudo: yes
+  sudo_user: "{{ user }}"
